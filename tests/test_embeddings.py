@@ -6,7 +6,7 @@ import pytest
 from src.intocomics.embeddings import TextEmbedder, cosine_similarity
 
 
-class TestCosimeSimilarity:
+class TestCosineSimilarity:
     def test_identical_vectors(self):
         a = np.array([[1.0, 0.0, 0.0]])
         b = np.array([[1.0, 0.0, 0.0]])
